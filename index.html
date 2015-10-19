@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Blackjack</title>
+
+  <header>
+    <h1>Golden Nugget</h1>
+  </header>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+  <div id='cash'>Bank: $1000</div>
+  <div id='bet'>Bet: $100</div>
+
+    <div class='title'>
+    <div class='player'>Player's Hand:</div>
+    <div class='computer'>Dealer's Hand:</div>
+  </div>
+
+  <div class='changeBet'>
+    <div id='subBet' class='lil button'>-</div>
+    <div id='placeBet' class='big button'>Try Your Luck</div>
+    <div id='addBet' class='lil button last'>+</div>
+  </div>
+
+  <div class='hide buttons'>
+    <div id='playHit' class='button'>Hit</div>
+    <div id='playStay' class='button last'>Stand</div>
+  </div>
+
+  <div class='ending'>
+    <div id='reset' class='hide button'>Next Hand</div>
+    <div id='startover' class='hide button'>Start Over</div>
+  </div>
+
+
+  <div id='gameBoard' class=''>
+    <div class='player-section card-section'></div><div class='computer-section card-section'></div>
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="blackjack.js"></script>
+
+</body>
+</html>
